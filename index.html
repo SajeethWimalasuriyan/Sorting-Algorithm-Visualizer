@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   
+<body >
+   
+    <head>
+            <!-- remember when using bootstrap put your css file after bootstrap if you want it to overide it for stuff like
+        changing the background-->
+          
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    
+<div class = "algorithm">
+        <div id = "pop" class = "popup">
+                <h1>
+                        <strong>Instructions</strong>
+                </h1>
+                <p>
+                        <strong>Start: </strong>Starts selected algorithm and increased speed when clicked multiple times.<br>
+                        <strong>New Data: </strong>Generates new data to sort.<br>
+                        <strong>One Step: </strong>Does one step of the algorithm.<br>
+                        <strong>Information: </strong>A new data set must be generated before switching to a new algorithm.
+                </p>
+                        
+                <a href = "#" id = "pop_button" onclick="end()"><strong>Close</strong></a>
+        </div>
+        <div id = "nav" class="topnav">
+                <a id = "1" class="active"  href="index.html">Bubblesort</a>
+
+                <a id = "2" onclick = "change2()" >SelectionSort</a>
+                <a id = "3" onclick="change3()" >HeapSort</a>
+                <a id = "4" onclick = "change4()">QuickSort</a>
+
+                <button id = "start" onclick = "work()">Start</button>
+                <button onClick="document.location.reload(true)" id = "Reset" onclick = "">New Data</button>
+                <button id = "clicker" onclick="user_bubble()">One Step</button>
+              </div>
+
+
+<canvas id="myCanvas" width="1000" height="620"  alt = "this is the visualizer"></canvas>
+<img onclick = "instructions()"id = "help" src = "help.png" alt = "help">
+<script src = "render.js"></script>
+<script src = "index.js"></script>
+
+</div>
+
+
+</body>
+</html>
