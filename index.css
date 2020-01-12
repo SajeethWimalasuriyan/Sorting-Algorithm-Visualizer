@@ -9,14 +9,12 @@ button{
   outline: none;
   border: none;
 background: none;
-
 }
 :root{
   --blue: rgb(114,137,218);
   --green: rgb(67,181,129);
 }
 .popup{
-
   position: fixed;
   left: 50%;
   top:20%;
@@ -37,9 +35,7 @@ background: none;
   background-color: var(--green);
   padding: 10px 21px;
   text-decoration: none;
- 
 }
-
 #help{
   height:50px;
   width: 50px;
@@ -52,12 +48,10 @@ background: none;
   width: 100vw;
   text-align: center;
 }
-
 .topnav {
   background-color: #333;
   overflow: hidden;
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -67,7 +61,6 @@ background: none;
   text-decoration: none;
   font-size: 17px;
 }
-
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: rgb(67,181,129);
@@ -76,9 +69,7 @@ background: none;
 button:hover{
   background-color: rgb(67,181,129);
   color: black;
-
 }
-
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: rgb(114,137,218);
@@ -86,15 +77,12 @@ button:hover{
 }
 canvas{
   background-color: rgb(38,38,42);
-
 }
 body{
   background-color: rgb(38,38,42);
   color: white;
-  
 }
 .blur{
   filter: blur(7px);
-  
 }
 button:focus { outline: none; }
